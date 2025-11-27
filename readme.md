@@ -2,25 +2,19 @@
 
 ![](https://skillicons.dev/icons?i=js,ts,python,rust,cpp,java,react,nextjs,express,tailwind,docker,git,linux,gcp&perline=7)
 
----
+--- 
 
-### GitHub Stats
+## GitHub Metrics
 
-<p align="center">
-  <img src="https://stats4github.vercel.app/api?username=alfen-yu&include_all_commits=true" alt="GitHub Stats" height="165" />
-  <img src="https://stats4github.vercel.app/api/top-langs/?username=alfen-yu&layout=compact&langs_count=10" alt="Top Languages" height="165" />
-</p>
+![GitHub Metrics](https://raw.githubusercontent.com/alfen-yu/alfen-yu/main/github-metrics.svg)
 
 ---
 
-### Auto-Detect Tech Stack
+## GitHub Stats
 
-<p align="center">
-  <!-- Most Used Languages (GitHub Analysis) -->
-  <img src="https://stats4github.vercel.app/api/top-langs/?username=alfen-yu&layout=compact&langs_count=10" height="165" />
-  
-  <!-- GitHub Metrics Tech Stack (detailed) -->
-  <img src="https://raw.githubusercontent.com/alfen-yu/alfen-yu/main/github-metrics.svg" alt="GitHub Metrics" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alfen-yu&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alfen-yu&layout=compact&theme=radical)
 
 ---
+[yousufuighur@gmail.com](mailto:yousufuighur@gmail.com)
