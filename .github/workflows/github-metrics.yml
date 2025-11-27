@@ -27,7 +27,7 @@ jobs:
           config_timezone: Asia/Karachi
           repositories_forks: no
           
-          # Languages plugin
+          # languages plugin
           plugin_languages: yes
           plugin_languages_limit: 12
           plugin_languages_sections: most-used
@@ -41,10 +41,10 @@ jobs:
           plugin_languages_recent_load: 500
           plugin_languages_recent_days: 365
           
-          # Traffic plugin
+          # traffic plugin
           plugin_traffic: yes
           
-          # Output
+          # output
           filename: github-metrics.svg
           output_action: commit
           committer_message: "chore: update GitHub metrics"
