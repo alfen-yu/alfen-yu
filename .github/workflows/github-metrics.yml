@@ -11,29 +11,39 @@ on:
 jobs:
   generate-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          user: alfen-yu
-          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, languages
+          user: alfen-yu
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Karachi
+          
+          # languages plugin
           plugin_languages: yes
-          plugin_languages_limit: 12
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_colors: github
+          plugin_languages_threshold: 0%
           plugin_languages_indepth: yes
-          plugin_languages_details: percentage, bytes-size
+          plugin_languages_details: percentage
+          plugin_languages_analysis_timeout: 15
+          
+          # traffic plugin
           plugin_traffic: yes
-          plugin_followup: yes
-          plugin_stargazers: yes
-
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add github-metrics.svg
-          git commit -m "Update GitHub Metrics" || exit 0
-          git push
+          
+          # stars plugin
+          plugin_stars: yes
+          plugin_stars_limit: 4
+          
+          # output
+          filename: github-metrics.svg
+          output_action: commit
+          committer_message: "chore: update GitHub metrics"
