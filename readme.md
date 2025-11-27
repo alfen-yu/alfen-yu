@@ -6,8 +6,7 @@
 
 ## GitHub Metrics
 
-![GitHub Metrics](https://raw.githubusercontent.com/alfen-yu/alfen-yu/main/github-metrics.svg)
-
+![GitHub Metrics](https://raw.githubusercontent.com/alfen-yu/alfen-yu/main/github-metrics.svg?t=1)
 ---
 
 ## GitHub Stats
