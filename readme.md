@@ -1,6 +1,6 @@
 ### Tech Stack
 
-![](https://skillicons.dev/icons?i=js,ts,python,rust,cpp,java,react,nextjs,express,tailwind,docker,git,linux,gcp&perline=7)
+![](https://skillicons.dev/icons?i=js,ts,python,rust,cpp,react,nextjs,express,tailwind,docker,git,linux,gcp&perline=7)
 
 --- 
 
