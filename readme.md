@@ -11,7 +11,10 @@
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alfen-yu&show_icons=true&theme=radical)
+x ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alfen-yu&show_icons=true&theme=radical)
+<p>
+  <img src="https://stats4github.vercel.app/api?username=alfen-yu&include_all_commits=true" alt="GitHub Stats" height="165" />
+</p>
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alfen-yu&layout=compact&theme=radical)
 
